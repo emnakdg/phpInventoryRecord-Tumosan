@@ -1,0 +1,44 @@
+# XAMPP directories and files
+/xampp/
+/tmp/
+/log/
+/mailoutput/
+/MercuryMail/
+/mysql/data/
+/xampp-control.ini
+passwords.txt
+*.log
+
+# PHPMyAdmin specific
+/phpMyAdmin/*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# VCS
+.svn/
+.hg/
+.git/
+.idea/
+.vscode/
+
+# SQL and configuration files (hassas verileri korumak için)
+/*.sql
+/config.php
+.env
+
+# Backup files
+*.bak
+*.old
+*.backup
+
+# Other sensitive files
+*.key
+*.pem
+*.crt
+*.config
